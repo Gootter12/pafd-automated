@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-# run every 14:32., which is UTC 6:32 + 8
-    - cron:  '32 6 * * *'
+# run every 14:07., which is UTC 6:07 + 8
+    - cron:  '07 6 * * *'
   workflow_dispatch:
 
 jobs:
